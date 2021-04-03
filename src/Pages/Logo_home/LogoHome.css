@@ -1,0 +1,48 @@
+.container-slide {
+    position: relative;
+    top: 0;
+    background-color: teal;
+    height: 550px;
+    z-index: 1;
+}
+.carousel {
+    top: 20px;
+}
+.carousel .carousel-item .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.473);
+    z-index: 1;
+}
+.carousel .social {
+    background-color: #080808;
+max-width: 10vw !important;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: 2;
+    max-height: 57vw;
+    text-align: center;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    /* border-radius: 20px; */
+} 
+.carousel .social i {
+    /* background-color: teal; */
+    color: #eee;
+    max-width: 20vw;
+    font-weight: 600;
+    font-size: 25px;
+    max-height: 11vw;
+    cursor: pointer;
+    /* margin-top: 15px; */
+    border-radius: 50%;
+
+}
+@media (max-width : 300px) {
+    .carousel .social {
+        width: 8vw;
+    }
+}
