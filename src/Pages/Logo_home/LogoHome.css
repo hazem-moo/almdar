@@ -46,3 +46,8 @@ max-width: 10vw !important;
         width: 8vw;
     }
 }
+@media ( max-width : 700px ) {
+    .container-slide {
+        max-height: 400px;
+    }
+}
