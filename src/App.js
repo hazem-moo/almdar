@@ -7,7 +7,7 @@ import Home from './Components/Home';
 
 function App() {
   return (
-    <BrowserRouter basename="/almanar">
+    <BrowserRouter basename="/almdar">
       <MyNav />
       <Switch>
         <Route exact path='/' component={ Home } />

@@ -22,7 +22,7 @@ max-width: 10vw !important;
     top: 10%;
     left: 0;
     z-index: 2;
-    max-height: 57vw;
+    max-height: 100vw;
     text-align: center;
     display: flex;
     align-content: space-around;
