@@ -1,91 +1,82 @@
-import React, { useState } from 'react';
-import {
-  Carousel,
-  CarouselItem,
-  // CarouselControl,
-  // CarouselIndicators,
-  CarouselCaption
-} from 'reactstrap';
-
+import React from 'react'
 import './LogoHome.css'
+
+import { Link } from 'react-router-dom'
+
+import { Card, CardImg, CardBody, CardText } from 'reactstrap'
+
+import Logo5 from '../../images/5.jpg'
+import video from '../../images/0.mp4'
+
 import Logo1 from '../../images/1.jpg'
 import Logo2 from '../../images/2.jpg'
 import Logo3 from '../../images/3.jpg'
 import Logo4 from '../../images/4.jpg'
 
-
-const items = [
-  {
-    src: Logo1,
-    caption: ' اصابه خطيره لقنان مصري شاب بسبب محمد رمضان '
-  },
-  {
-    src: Logo2,
-    caption: ' هل يحصل محمد صلاح علي الجنسية الانجليزيه '
-  },
-  {
-    src: Logo3 ,
-    caption: ' ما قصه الغقد الذي ارتدته ياسمين صبري '
-  },
-  {
-    src: Logo4 ,
-    caption: ' دبي للاحصاء : 38 % نسبة الاطفال في للامارات '
-  }
-];
-
-const LogoHome = (props) => {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
-
-  const next = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  }
-
-  const previous = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  }
-
-  const goToIndex = (newIndex) => {
-    if (animating) return;
-    setActiveIndex(newIndex);
-  }
-
-  const slides = items.map((item) => {
-    return (
-      <CarouselItem
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-        key={item.src}
-      >
-        <div className='overlay'></div>    
-        <img src={item.src} alt={item.altText} width='100%' />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
-      </CarouselItem>
-    );
-  });
-
+const LogoHome = () => {
   return (
-    <div className='container-slide'>
-      <Carousel
-        activeIndex={activeIndex}
-        next={next}
-        previous={previous}
-      >
-        {slides}
-        <div className='social'>
-          <i className='fab fa-facebook '></i>
-          <i className='fab fa-linkedin '></i>
-          <i className='fab fa-youtube '></i>
-          <i className='fab fa-instagram '></i>
-          <i className='fab fa-twitter '></i>
+    <div className="overlay-home ">
+      <div className="row">
+
+        <div className='col-lg-3'>
+          <Card className='video'>
+            <video controls className="vid"  height="300px" poster={ Logo5 } >
+              <source  src={ video } type="video/mp4" /> 
+            </video>
+            <p> توصية عاجله الصجه العالمية بشأن لقاح استرازينيكا </p>
+          </Card>
         </div>
-      </Carousel>
+
+        <div className='col-lg-2 col-md-6 mt-5 '>
+          <Card tag={ Link } className="post" to="#" onClick={ () => window.scrollTo( 0, 0 ) } >
+            <CardImg top width='100%' alt='' src={ Logo4 } />
+            <CardBody  >
+              <CardText tag='h6'> دبي للاحصاء : 38 % نسبة الاطفال في للامارات </CardText>
+            </CardBody>
+          </Card>
+        </div>
+
+        <div className='col-lg-2 col-md-6 mt-5 '>
+          <Card tag={ Link } className="post" to="#" onClick={ () => window.scrollTo( 0, 0 ) } >
+            <CardImg top width='100%' alt='' src={ Logo3 } />
+            <CardBody  >
+              <CardText tag='h6'> ما قصه الغقد الذي ارتدته ياسمين صبري </CardText>
+            </CardBody>
+          </Card>
+        </div>
+
+        <div className='col-lg-2 col-md-6 mt-5 '>
+          <Card tag={ Link } className="post" to="#" onClick={ () => window.scrollTo( 0, 0 ) } >
+            <CardImg top width='100%' alt='' src={ Logo2 } />
+            <CardBody  >
+              <CardText tag='h6'> هل يحصل محمد صلاح علي الجنسية الانجليزيه </CardText>
+            </CardBody>
+          </Card>
+        </div>
+
+        <div className='col-lg-2 col-md-6 mt-5 '>
+          <Card tag={ Link } className="post" to="#" onClick={ () => window.scrollTo( 0, 0 ) } >
+            <CardImg top width='100%' alt='' src={ Logo1 } />
+            <CardBody  >
+              <CardText tag='h6'> اصابه خطيره لقنان مصري شاب بسبب محمد رمضان </CardText>
+            </CardBody>
+          </Card>
+        </div>
+
+        <div className='col-lg-1 mt-5'>
+          <div className='post-social'>
+            <i className='fab fa-2x fa-facebook '></i>
+            <i className='fab fa-2x fa-linkedin '></i>
+            <i className='fab fa-2x fa-youtube '></i>
+            <i className='fab fa-2x fa-instagram '></i>
+            <i className='fab fa-2x fa-twitter '></i>
+          </div>
+        </div>
+
+      </div>
+
     </div>
-  );
+  )
 }
 
-export default LogoHome;
+export default LogoHome

@@ -22,3 +22,8 @@ code {
   background-color: teal;
   color: #EEE;
 }
+@media ( max-width : 990px ) {
+  body {
+    overflow-x: hidden;
+  }
+}
