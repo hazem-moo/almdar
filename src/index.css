@@ -11,6 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   direction: rtl;
   text-align: right;
+  overflow-x: hidden;
 }
 
 code {
@@ -21,9 +22,4 @@ code {
 ::selection {
   background-color: teal;
   color: #EEE;
-}
-@media ( max-width : 990px ) {
-  body {
-    overflow-x: hidden;
-  }
 }

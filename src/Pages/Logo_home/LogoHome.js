@@ -28,7 +28,7 @@ const LogoHome = () => {
         </div>
 
         <div className='col-lg-2 col-md-6 mt-5 '>
-          <Card tag={ Link } className="post" to="#" onClick={ () => window.scrollTo( 0, 0 ) } >
+          <Card tag={ Link } className="post" to="/childrens" onClick={ () => window.scrollTo( 0, 0 ) } >
             <CardImg top width='100%' alt='' src={ Logo4 } />
             <CardBody  >
               <CardText tag='h6'> دبي للاحصاء : 38 % نسبة الاطفال في للامارات </CardText>
@@ -65,11 +65,21 @@ const LogoHome = () => {
 
         <div className='col-lg-1 mt-5'>
           <div className='post-social'>
-            <i className='fab fa-2x fa-facebook '></i>
-            <i className='fab fa-2x fa-linkedin '></i>
-            <i className='fab fa-2x fa-youtube '></i>
-            <i className='fab fa-2x fa-instagram '></i>
-            <i className='fab fa-2x fa-twitter '></i>
+            <Link to="#" >
+              <i className='fab fa-2x fa-facebook'></i>
+            </Link>
+            <Link to='#'>
+              <i className='fab fa-2x fa-linkedin '></i>
+            </Link>
+            <Link to='#'>
+              <i className='fab fa-2x fa-youtube '></i>
+            </Link>
+            <Link to='#'>
+              <i className='fab fa-2x fa-instagram '></i>
+            </Link>
+            <Link to='#'>
+              <i className='fab fa-2x fa-twitter '></i>
+            </Link>
           </div>
         </div>
 
