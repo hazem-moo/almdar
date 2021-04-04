@@ -62,3 +62,11 @@
         top: 190px;
     }
 }
+@media (min-width : 302px ) And ( max-width: 460px ) {
+    .part1 .part1-post p {
+        top: 100px;
+    }
+    .part1 .animate {
+        margin-bottom: 140px;
+    }
+}
