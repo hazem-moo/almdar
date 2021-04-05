@@ -23,3 +23,6 @@ code {
   background-color: teal;
   color: #EEE;
 }
+a {
+  text-decoration: none !important;
+}

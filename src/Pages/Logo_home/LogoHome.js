@@ -27,37 +27,37 @@ const LogoHome = () => {
           </Card>
         </div>
 
-        <div className='col-lg-2 col-md-6 mt-5 '>
+        <div className='col-lg-2 col-md-6'>
           <Card tag={ Link } className="post" to="/childrens" onClick={ () => window.scrollTo( 0, 0 ) } >
-            <CardImg top width='100%' alt='' src={ Logo4 } />
-            <CardBody  >
-              <CardText tag='h6'> دبي للاحصاء : 38 % نسبة الاطفال في للامارات </CardText>
+            <CardImg top width='100%' alt='' src={ Logo4 } className="img-fluid home-img" />
+            <CardBody  className='my-p'>
+              <CardText  tag='h6'> دبي للاحصاء : 38 % نسبة الاطفال في للامارات </CardText>
             </CardBody>
           </Card>
         </div>
 
-        <div className='col-lg-2 col-md-6 mt-5 '>
+        <div className='col-lg-2 col-md-6 '>
           <Card tag={ Link } className="post" to="#" onClick={ () => window.scrollTo( 0, 0 ) } >
-            <CardImg top width='100%' alt='' src={ Logo3 } />
-            <CardBody  >
-              <CardText tag='h6'> ما قصه الغقد الذي ارتدته ياسمين صبري </CardText>
+            <CardImg top className='home-img' width='100%' alt='' src={ Logo3 } />
+            <CardBody className='my-p'>
+              <CardText  tag='h6'> ما قصه العقد الذي ارتدته ياسمين صبري </CardText>
             </CardBody>
           </Card>
         </div>
 
-        <div className='col-lg-2 col-md-6 mt-5 '>
+        <div className='col-lg-2 col-md-6  '>
           <Card tag={ Link } className="post" to="#" onClick={ () => window.scrollTo( 0, 0 ) } >
-            <CardImg top width='100%' alt='' src={ Logo2 } />
-            <CardBody  >
+            <CardImg top className='home-img' width='100%' alt='' src={ Logo2 } />
+            <CardBody  className='my-p' >
               <CardText tag='h6'> هل يحصل محمد صلاح علي الجنسية الانجليزيه </CardText>
             </CardBody>
           </Card>
         </div>
 
-        <div className='col-lg-2 col-md-6 mt-5 '>
+        <div className='col-lg-2 col-md-6 '>
           <Card tag={ Link } className="post" to="#" onClick={ () => window.scrollTo( 0, 0 ) } >
-            <CardImg top width='100%' alt='' src={ Logo1 } />
-            <CardBody  >
+            <CardImg top className='home-img' width='100%' alt='' src={ Logo1 } />
+            <CardBody  className='my-p' >
               <CardText tag='h6'> اصابه خطيره لقنان مصري شاب بسبب محمد رمضان </CardText>
             </CardBody>
           </Card>

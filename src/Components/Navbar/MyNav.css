@@ -1,7 +1,9 @@
+.my-nav {
+    position: relative;
+    z-index: 2
+}
 .navbar {
     padding: 0 !important;
-    position: relative;
-    z-index: 1;
 }
 .navbar .navbar-brand {
     color: teal;

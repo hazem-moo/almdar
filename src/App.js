@@ -11,7 +11,6 @@ function App() {
       <MyNav />
       <Switch>
         <Route exact path='/' component={ Home } />
-        <Route path='/Face' component='https://www.facebook.com/hazem.mohamed.311/' />
       </Switch>
     </BrowserRouter>
   );

@@ -10,9 +10,9 @@ const MyNav = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
-    <Navbar color="faded" light>
-        <div className='container'>
-            <NavbarBrand tag={ Link } to="/Home" className="ml-auto"> المدار </NavbarBrand>
+    <div className='container'>
+        <Navbar color="faded" light className='my-nav'>
+            <NavbarBrand tag={ Link } to="/" className="ml-auto"> المدار </NavbarBrand>
             <span className='text-center' > tv </span>
             <NavbarToggler onClick={toggleNavbar} className="mr-2" >
                 <i className='fas fa-bars'></i>
@@ -33,8 +33,8 @@ const MyNav = (props) => {
                 </NavItem>
                 </Nav>
             </Collapse>
-        </div>
-    </Navbar>
+        </Navbar>
+    </div>
   );
 }
 
