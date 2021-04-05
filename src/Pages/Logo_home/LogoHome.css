@@ -1,6 +1,6 @@
 .overlay-home {
     background-color: #008080;
-    min-height: 600px;
+    min-height: 445px;
     text-align: center;
     position: relative;
     top: 0;
@@ -15,7 +15,7 @@
     color: thistle;
 }
 .overlay-home .post {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-top: 70px;
     color:#fff ;
     /* height: 320px; */
@@ -39,7 +39,7 @@
 }
 .overlay-home .post-social i {
     color: #ffff;
-    /* text-align: center; */
+    text-align: center;
 
 }
 @media ( max-width : 991px ) {
@@ -47,6 +47,6 @@
         flex-direction: row !important;
         height: 40px;
         width: 300px;
-        margin: 0 auto 15px;
+        margin: 0 auto 33px;
     }    
 }

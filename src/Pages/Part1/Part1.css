@@ -3,36 +3,34 @@
     position: relative;
     z-index: 3;
     background-color: whitesmoke;
-    bottom: 50px;
+    bottom: 87px;
 }
 .part1 .animate {
     perspective: 700px;
     position: relative;
-    margin-bottom: 310px;
+    margin-top: 40PX;
+    background-color: rgb(226, 221, 221);
 }
 
-.part1 .part1-posst-img {
-    position: absolute;
-    z-index: 1;
+.part1 .part1-post-img {
+    /* position: absolute;
+    display: block;
+    z-index: 1; */
     transition: all 1s ease-in-out;
 }
-.part1 .part1-posst-img:hover {
+.part1 .part1-post-img:hover {
     transform: translateZ(-28px);
 }
 .part1 .part1-post p {
     position: absolute;
     z-index: 2;
     color: whitesmoke;
-    top: 120px;
+    /* top: 120px; */
+    bottom: 1px;
     padding: 0 15px;
     font-size: 19px;
 }
-
-@media ( max-width : 991px ) {
-    .part1 .part1-post p {
-        top: 280px;
-    }
-}
+ 
 
 .part1 .part1-posting {
     flex-wrap: nowrap;
@@ -55,18 +53,5 @@
     height: 70px;
     position: relative;
     z-index: 1;
-    bottom: 80px;
-}
-@media (max-width : 502px ) {
-    .part1 .part1-post p {
-        top: 190px;
-    }
-}
-@media (min-width : 302px ) And ( max-width: 460px ) {
-    .part1 .part1-post p {
-        top: 100px;
-    }
-    .part1 .animate {
-        margin-bottom: 140px;
-    }
+    bottom: 120px;
 }

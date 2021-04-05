@@ -15,8 +15,12 @@ const Part1 = () => {
         <div className='container text-center part1' >
             <div className='row'>
                 <div className="col-lg-4  ">
-                    <Card tag={ Link } to="#" onClick={ () => window.scrollTo( 0, 0) } className='mt-5          part1-post animate' >
-                        <CardImg top width="100%" src={ Logo6 } alt='' className="part1-posst-img" />
+                    <Card 
+                        tag={ Link } to="#" 
+                        onClick={ () => window.scrollTo( 0, 0) } 
+                        className='part1-post animate' 
+                    >
+                        <CardImg top width="100%" src={ Logo6 } alt='' className="part1-post-img" />
                         <p> تفاصيل الاجتماع الاول بين حفطر والجكومة الليبيه الجديده  </p>
                     </Card>
                 </div>
@@ -27,7 +31,7 @@ const Part1 = () => {
                         <div className="col-lg-6">
                             <Card to='#' tag={ Link }
                                 onClick={ () => window.scrollTo( 0, 0) }
-                                className='mt-5 part1-posting animate'
+                                className=' part1-posting animate'
                             >
                                 <CardImg top src={ Logo7 } alt='' className='w-50 post-img' />
                                 <p > 
@@ -39,7 +43,7 @@ const Part1 = () => {
                         <div className="col-lg-6">
                             <Card to='#' tag={ Link }
                                 onClick={ () => window.scrollTo( 0, 0) }
-                                className='mt-5 part1-posting animate'
+                                className=' part1-posting animate'
                             >
                                 <CardImg top src={ Logo8 } alt='' className='w-50 post-img' />
                                 <p >
@@ -51,7 +55,7 @@ const Part1 = () => {
                         <div className="col-lg-6">
                             <Card to='#' tag={ Link }
                                 onClick={ () => window.scrollTo( 0, 0) }
-                                className='mt-5 part1-posting animate'
+                                className=' part1-posting animate'
                             >
                                 <CardImg top src={ Logo9 } alt='' className='w-50 post-img' />
                                 <p>
@@ -63,7 +67,7 @@ const Part1 = () => {
                         <div className="col-lg-6">
                             <Card to='#' tag={ Link }
                                 onClick={ () => window.scrollTo( 0, 0) }
-                                className='mt-5 part1-posting animate'
+                                className=' part1-posting animate'
                             >
                                 <CardImg top src={ Logo9 } alt='' className='w-50 post-img' />
                                 <p>
