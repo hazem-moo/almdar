@@ -4,6 +4,7 @@
 }
 
 body {
+  background-color: rgb(206, 206, 206);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -26,4 +27,22 @@ code {
 }
 a {
   text-decoration: none !important;
+}
+
+.lead {
+  color: #222;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: 500;
+  line-height: 250%;
+}
+
+.my-sport, 
+.political {
+  margin-top: 50px;
+  padding-top: 150px;
+}
+
+.card {
+  background-color: #fff;
 }

@@ -12,7 +12,7 @@ const MyNav = (props) => {
   return (
     <div className='container'>
         <Navbar color="faded" light className='my-nav'>
-            <NavbarBrand tag={ Link } to="/" className="ml-auto"> المدار </NavbarBrand>
+            <NavbarBrand tag={ Link } to="/" className="ml-auto"> الخبر </NavbarBrand>
             <span className='text-center' > tv </span>
             <NavbarToggler onClick={toggleNavbar} className="mr-2" >
                 <i className='fas fa-bars'></i>
@@ -23,14 +23,17 @@ const MyNav = (props) => {
                     <NavLink exact tag={ MyLink } to="/"> الرئيسية </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/components/">Components</NavLink>
+                    <NavLink tag={ Link } to="/Sport"> رياضه </NavLink>
                 </NavItem>
+                
                 <NavItem>
-                    <NavLink href="/components/">Components</NavLink>
+                    <NavLink tag={ Link } to="/Political"> سياسة </NavLink>
                 </NavItem>
+                
                 <NavItem>
-                    <NavLink href="/components/">Components</NavLink>
+                    <NavLink tag={ Link } to="/Art"> الفن </NavLink>
                 </NavItem>
+
                 </Nav>
             </Collapse>
         </Navbar>

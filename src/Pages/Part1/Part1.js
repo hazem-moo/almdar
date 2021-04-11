@@ -31,7 +31,7 @@ const Part1 = () => {
                         <div className="col-lg-6">
                             <Card to='#' tag={ Link }
                                 onClick={ () => window.scrollTo( 0, 0) }
-                                className=' part1-posting animate'
+                                className=' part1-posting '
                             >
                                 <CardImg top src={ Logo7 } alt='' className='w-50 post-img' />
                                 <p > 

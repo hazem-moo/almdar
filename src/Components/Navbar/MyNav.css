@@ -1,6 +1,8 @@
 .my-nav {
     position: relative;
-    z-index: 2
+    z-index: 50;
+    background-color: snow;
+    
 }
 .navbar {
     padding: 0 !important;
@@ -13,7 +15,7 @@
 }
 .navbar span {
     background-color: #f00;
-    color: thistle;
+    color: #fff;
     font-size: 20px;
     width: 30px;
 }
@@ -25,9 +27,12 @@
     color: #333;
     font-size: 18px;
 }
-.navbar .nav-item .nav-link:hover ,
-.navbar .nav-item .nav-link.active {
-    color: teal;
-    text-decoration: teal underline;
 
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-lin {
+    color: teal;
+    font-weight: 700;
+    font-size: 20px;
 }

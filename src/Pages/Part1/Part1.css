@@ -3,9 +3,10 @@
     position: relative;
     z-index: 3;
     background-color: whitesmoke;
-    bottom: 87px;
+    bottom: 160px;
+    padding-bottom: 40px;
 }
-.part1 .animate {
+.part1 .part1-post {
     perspective: 700px;
     position: relative;
     margin-top: 40PX;
@@ -19,7 +20,7 @@
     transition: all 1s ease-in-out;
 }
 .part1 .part1-post-img:hover {
-    transform: translateZ(-28px);
+    transform: translateZ(-49px);
 }
 .part1 .part1-post p {
     position: absolute;
@@ -30,7 +31,7 @@
     padding: 0 15px;
     font-size: 19px;
 }
- 
+
 
 .part1 .part1-posting {
     flex-wrap: nowrap;
@@ -38,14 +39,17 @@
     transition: ease-in-out all 2s;
     perspective: 700px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .part1 .post-img:hover {
-    transform: translateZ(-30px);
+    transition: all 1s ea   ease-in-out;
+    transform: translateZ(-50px);
     opacity: .7;
 }
 .part1 .part1-posting P {
     font-weight: 500;
     color: #444;
+    margin-bottom: 10px;
 }
 
 .part1-footer {
@@ -53,5 +57,5 @@
     height: 70px;
     position: relative;
     z-index: 1;
-    bottom: 120px;
+    bottom: 185px;
 }
