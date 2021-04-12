@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Card, CardImg, CardText } from 'reactstrap'
+import { Card, CardImg } from 'reactstrap'
 import Logo6 from "../../images/6.jpg"
 import Logo7 from "../../images/7.jpg"
 import Logo8 from "../../images/8.jpg"
@@ -16,7 +16,7 @@ const Part1 = () => {
             <div className='row'>
                 <div className="col-lg-4  ">
                     <Card 
-                        tag={ Link } to="#" 
+                        tag={ Link } to="/Politic2" 
                         onClick={ () => window.scrollTo( 0, 0) } 
                         className='part1-post animate' 
                     >
@@ -29,7 +29,7 @@ const Part1 = () => {
                     <div className='row'>
                         
                         <div className="col-lg-6">
-                            <Card to='#' tag={ Link }
+                            <Card to='/Politic3' tag={ Link }
                                 onClick={ () => window.scrollTo( 0, 0) }
                                 className=' part1-posting '
                             >
@@ -41,7 +41,7 @@ const Part1 = () => {
                         </div>
                         
                         <div className="col-lg-6">
-                            <Card to='#' tag={ Link }
+                            <Card to='/Politic4' tag={ Link }
                                 onClick={ () => window.scrollTo( 0, 0) }
                                 className=' part1-posting animate'
                             >
@@ -53,7 +53,7 @@ const Part1 = () => {
                         </div>
                         
                         <div className="col-lg-6">
-                            <Card to='#' tag={ Link }
+                            <Card to='/Politic5' tag={ Link }
                                 onClick={ () => window.scrollTo( 0, 0) }
                                 className=' part1-posting animate'
                             >
@@ -65,13 +65,13 @@ const Part1 = () => {
                         </div>
                         
                         <div className="col-lg-6">
-                            <Card to='#' tag={ Link }
+                            <Card to='/Politic6' tag={ Link }
                                 onClick={ () => window.scrollTo( 0, 0) }
                                 className=' part1-posting animate'
                             >
-                                <CardImg top src={ Logo9 } alt='' className='w-50 post-img' />
+                                <CardImg top src={ Logo10 } alt='' className='w-50 post-img' />
                                 <p>
-                                        مصادر : السراج يستعد لمغادره ليبيا ودعوات للتحقيق معه
+                                   مصادر : السراج يستعد لمغادره ليبيا ودعوات للتحقيق معه
                                 </p>
                             </Card>
                         </div>

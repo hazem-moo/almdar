@@ -4,21 +4,21 @@
 }
 
 .part2 .post {
-    margin-bottom: 25px;
-    perspective: 500px;
+    margin-bottom: 25px !important;
+    perspective: 500px !important;
 }
 
 .part2 .post .post-img {
-    margin-bottom: 10px;
-    transition: all .75s linear;
-    height: 250px;
+    margin-bottom: 10px !important;
+    transition: all .75s linear !important;
+    height: 250px !important;
 }
 .part2 .post .post-img:hover {
-    transform: translateZ(-80px);
+    transform: translateZ(-80px) !important;
 }
 
 .part2 .post .post-p {
-    padding: 8px;
-    margin-bottom: 10px;
-    color: #222;
+    padding: 8px !important;
+    margin-bottom: 10px !important;
+    color: #222 !important;
 }

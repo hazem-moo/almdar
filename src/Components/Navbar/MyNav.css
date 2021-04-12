@@ -36,3 +36,7 @@
     font-weight: 700;
     font-size: 20px;
 }
+.navbar .nav-item .nav-link:hover {
+        padding-right: 29px;
+
+}

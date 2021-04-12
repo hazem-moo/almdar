@@ -1,0 +1,23 @@
+
+
+
+
+.art .post {
+    margin-bottom: 25px !important;
+    perspective: 500px !important;
+}
+
+.art .post .post-img {
+    margin-bottom: 10px !important;
+    transition: all .75s linear !important;
+    height: 250px !important;
+}
+.art .post .post-img:hover {
+    transform: translateZ(-80px) !important;
+}
+
+.art .post .post-p {
+    padding: 8px !important;
+    margin-bottom: 10px !important;
+    color: #222 !important;
+}
