@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/almdar/static/css/main.1c34ab15.chunk.css",
-    "main.js": "/almdar/static/js/main.a10df1fd.chunk.js",
-    "main.js.map": "/almdar/static/js/main.a10df1fd.chunk.js.map",
-    "runtime-main.js": "/almdar/static/js/runtime-main.8e13059d.js",
-    "runtime-main.js.map": "/almdar/static/js/runtime-main.8e13059d.js.map",
+    "main.css": "/almdar/static/css/main.7ad4a51a.chunk.css",
+    "main.js": "/almdar/static/js/main.6cb2425b.chunk.js",
+    "main.js.map": "/almdar/static/js/main.6cb2425b.chunk.js.map",
+    "runtime-main.js": "/almdar/static/js/runtime-main.8222ad56.js",
+    "runtime-main.js.map": "/almdar/static/js/runtime-main.8222ad56.js.map",
     "static/css/2.1a02f21c.chunk.css": "/almdar/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.3928b071.chunk.js": "/almdar/static/js/2.3928b071.chunk.js",
-    "static/js/2.3928b071.chunk.js.map": "/almdar/static/js/2.3928b071.chunk.js.map",
-    "static/js/3.99887a96.chunk.js": "/almdar/static/js/3.99887a96.chunk.js",
-    "static/js/3.99887a96.chunk.js.map": "/almdar/static/js/3.99887a96.chunk.js.map",
+    "static/js/2.f7f0fd96.chunk.js": "/almdar/static/js/2.f7f0fd96.chunk.js",
+    "static/js/2.f7f0fd96.chunk.js.map": "/almdar/static/js/2.f7f0fd96.chunk.js.map",
+    "static/js/3.f33e98da.chunk.js": "/almdar/static/js/3.f33e98da.chunk.js",
+    "static/js/3.f33e98da.chunk.js.map": "/almdar/static/js/3.f33e98da.chunk.js.map",
     "index.html": "/almdar/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/almdar/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.1c34ab15.chunk.css.map": "/almdar/static/css/main.1c34ab15.chunk.css.map",
-    "static/js/2.3928b071.chunk.js.LICENSE.txt": "/almdar/static/js/2.3928b071.chunk.js.LICENSE.txt",
+    "static/css/main.7ad4a51a.chunk.css.map": "/almdar/static/css/main.7ad4a51a.chunk.css.map",
+    "static/js/2.f7f0fd96.chunk.js.LICENSE.txt": "/almdar/static/js/2.f7f0fd96.chunk.js.LICENSE.txt",
     "static/media/0.c92a7ba3.mp4": "/almdar/static/media/0.c92a7ba3.mp4",
     "static/media/1.9f8f6732.jpg": "/almdar/static/media/1.9f8f6732.jpg",
     "static/media/10.6a24c78f.jpg": "/almdar/static/media/10.6a24c78f.jpg",
@@ -32,10 +32,10 @@
     "static/media/8.aab05759.jpg": "/almdar/static/media/8.aab05759.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e13059d.js",
+    "static/js/runtime-main.8222ad56.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.3928b071.chunk.js",
-    "static/css/main.1c34ab15.chunk.css",
-    "static/js/main.a10df1fd.chunk.js"
+    "static/js/2.f7f0fd96.chunk.js",
+    "static/css/main.7ad4a51a.chunk.css",
+    "static/js/main.6cb2425b.chunk.js"
   ]
 }
