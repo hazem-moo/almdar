@@ -25,6 +25,7 @@ import Art2 from './Pages/art/Art2';
 import Art3 from './Pages/art/Art3';
 import Art4 from './Pages/art/Art4';
 import Art5 from './Pages/art/Art5';
+import Footfooter from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
         <Route path='/Art4' component={ Art4 } />
         <Route path='/Art5' component={ Art5 } />
       </Switch>
+      <Footfooter />
     </BrowserRouter>
   );
 }

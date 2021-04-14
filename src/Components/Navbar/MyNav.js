@@ -5,7 +5,7 @@ import './MyNav.css'
 
 const MyNav = (props) => {
 
-  const [collapsed, setCollapsed] = useState(true);
+  const [collapsed, setCollapsed] = useState( true );
 
   const toggleNavbar = () => setCollapsed(!collapsed);
 
