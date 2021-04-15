@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState} from 'react'
+import React, { useRef, useState} from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 
 const Footer = () => {
-    
+    const focusRef = useRef()
     return (
         <footer className='footer'>
             <div className='container text-center'>
@@ -41,7 +41,7 @@ const Footer = () => {
                            </div>
                     </div> 
                     <div className='col-lg-4'>
-                        <div className='my-form text-left'>
+                        <form className='my-form text-left'>
                             <input 
                                 type='text'
                                 placeholder='type your name' 
@@ -62,7 +62,33 @@ const Footer = () => {
 
                             <Link to='https://mail.google.com/mail/u/0/#inbox'
                                     className='send mx-auto'> ارسال </Link>
+                        </form>
+                    </div>
+
+                    <div className="col-lg-4">
+                        <div className="infor">
+                            <div className='social'>
+                                <Link to="#" >
+                                    <i className='fab fa-2x fa-facebook'></i>
+                                </Link>
+                                <Link to='#'>
+                                    <i className='fab fa-2x fa-linkedin '></i>
+                                </Link>
+                                <Link to='#'>
+                                    <i className='fab fa-2x fa-youtube '></i>
+                                </Link>
+                                <Link to='#'>
+                                    <i className='fab fa-2x fa-instagram '></i>
+                                </Link>
+                                <Link to='#'>
+                                    <i className='fab fa-2x fa-twitter '></i>
+                                </Link>
+                            </div>
                         </div>
+                        <form className='search'>
+                            <input ref={ focusRef } type='search' className='w-100' />
+                            <i className='fas fa-search' onClick={ () => focusRef.current.focus() } ></i>
+                        </form>
                     </div>
                 </div>
             </div>

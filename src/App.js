@@ -7,6 +7,9 @@ import Home from './Components/Home';
 
 import Sport from './Components/Sport';
 import Sport0 from './Pages/Part2/Sport0';
+import Sport1 from './Pages/Part2/Sport1';
+import Sport2 from './Pages/Part2/Sport2';
+import Sport3 from './Pages/Part2/Sport3';
 import Sport4 from './Pages/Part2/Sport4';
 import Sport5 from './Pages/Part2/Sport5';
 import Sport6 from './Pages/Part2/Sport6';
@@ -25,6 +28,7 @@ import Art2 from './Pages/art/Art2';
 import Art3 from './Pages/art/Art3';
 import Art4 from './Pages/art/Art4';
 import Art5 from './Pages/art/Art5';
+
 import Footfooter from './Components/Footer/Footer';
 
 function App() {
@@ -44,6 +48,9 @@ function App() {
 
         <Route path='/Sport' component={ Sport } />
         <Route path='/Sport0' component={ Sport0 } />
+        <Route path='/Sport1' component={ Sport1 } />
+        <Route path='/Sport2' component={ Sport2 } />
+        <Route path='/Sport3' component={ Sport3 } />
         <Route path='/Sport4' component={ Sport4 } />
         <Route path='/Sport5' component={ Sport5 } />
         <Route path='/Sport6' component={ Sport6 } />
