@@ -1,6 +1,5 @@
 import React from 'react'
-import Logo1 from '../../images/1.jpg'
-
+import Logo1 from '../../images/2.jpg'
 const Sport1 = () => {
     return (
         <div>

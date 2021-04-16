@@ -9,6 +9,7 @@ const Footer = () => {
             <div className='container text-center'>
                 <div className='row'>
                     <div className="col-lg-4">
+                        <h2> الاقصام </h2>
                         <div>
                             <Link
                                 onClick={ () => window.scrollTo(0, 0) }
@@ -45,7 +46,7 @@ const Footer = () => {
                             <input 
                                 type='text'
                                 placeholder='type your name' 
-                                autoFocus autoComplete="on" required
+                                autoComplete="on" required
                             />
                                 
                                 

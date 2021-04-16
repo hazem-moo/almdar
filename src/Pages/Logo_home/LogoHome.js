@@ -33,7 +33,7 @@ const LogoHome = () => {
             onClick={ () => window.scrollTo( 0, 0 ) } >
             <CardImg top width='100%' alt='' src={ Logo4 } className="img-fluid home-img" />
             <CardBody  className='my-p'>
-              <CardText  tag='h6'> دبي للاحصاء : 38 % نسبة الاطفال في للامارات </CardText>
+              <CardText  > دبي للاحصاء : 38 % نسبة الاطفال في للامارات </CardText>
             </CardBody>
           </Card>
         </div>
@@ -42,7 +42,7 @@ const LogoHome = () => {
           <Card tag={ Link } className="post" to="/Art1" onClick={ () => window.scrollTo( 0, 0 ) } >
             <CardImg top className='home-img' width='100%' alt='' src={ Logo3 } />
             <CardBody className='my-p'>
-              <CardText  tag='h6'> ما قصه العقد الذي ارتدته ياسمين صبري </CardText>
+              <CardText  > ما قصه العقد الذي ارتدته ياسمين صبري </CardText>
             </CardBody>
           </Card>
         </div>
@@ -51,7 +51,7 @@ const LogoHome = () => {
           <Card tag={ Link } className="post" to="/Sport0" onClick={ () => window.scrollTo( 0, 0 ) } >
             <CardImg top className='home-img' width='100%' alt='' src={ Logo2 } />
             <CardBody  className='my-p' >
-              <CardText tag='h6'> هل يحصل محمد صلاح علي الجنسية الانجليزيه </CardText>
+              <CardText > هل يحصل محمد صلاح علي الجنسية الانجليزيه </CardText>
             </CardBody>
           </Card>
         </div>
@@ -60,7 +60,7 @@ const LogoHome = () => {
           <Card tag={ Link } className="post" to="/Art2" onClick={ () => window.scrollTo( 0, 0 ) } >
             <CardImg top className='home-img' width='100%' alt='' src={ Logo1 } />
             <CardBody  className='my-p' >
-              <CardText tag='h6'> اصابه خطيره لقنان مصري شاب بسبب محمد رمضان </CardText>
+              <CardText > اصابه خطيره لقنان مصري شاب بسبب محمد رمضان </CardText>
             </CardBody>
           </Card>
         </div>

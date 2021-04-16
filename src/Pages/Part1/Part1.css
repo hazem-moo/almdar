@@ -1,5 +1,4 @@
 .part1 {
-    /* min-height: 420px; */
     position: relative;
     z-index: 3;
     background-color: whitesmoke;
@@ -24,6 +23,7 @@
 }
 .part1 .part1-post p {
     position: absolute;
+    overflow-y: hidden;
     z-index: 2;
     color: whitesmoke;
     /* top: 120px; */
