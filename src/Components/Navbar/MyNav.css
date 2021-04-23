@@ -17,8 +17,10 @@
     background-color: #f00;
     color: #fff;
     font-size: 20px;
+    font-weight: 500;
     width: 30px;
     overflow-y: hidden;
+    font-family: monospace, Arial, Helvetica, sans-serif;
 }
 .navbar .navbar-toggler i {
     color: teal;
