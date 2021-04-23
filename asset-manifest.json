@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/almdar/static/css/main.a7260dcc.chunk.css",
+    "main.css": "/almdar/static/css/main.da0d87c8.chunk.css",
     "main.js": "/almdar/static/js/main.61752cf2.chunk.js",
     "main.js.map": "/almdar/static/js/main.61752cf2.chunk.js.map",
     "runtime-main.js": "/almdar/static/js/runtime-main.8222ad56.js",
@@ -12,7 +12,7 @@
     "static/js/3.f33e98da.chunk.js.map": "/almdar/static/js/3.f33e98da.chunk.js.map",
     "index.html": "/almdar/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/almdar/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.a7260dcc.chunk.css.map": "/almdar/static/css/main.a7260dcc.chunk.css.map",
+    "static/css/main.da0d87c8.chunk.css.map": "/almdar/static/css/main.da0d87c8.chunk.css.map",
     "static/js/2.f7f0fd96.chunk.js.LICENSE.txt": "/almdar/static/js/2.f7f0fd96.chunk.js.LICENSE.txt",
     "static/media/0.c92a7ba3.mp4": "/almdar/static/media/0.c92a7ba3.mp4",
     "static/media/1.9f8f6732.jpg": "/almdar/static/media/1.9f8f6732.jpg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.8222ad56.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.f7f0fd96.chunk.js",
-    "static/css/main.a7260dcc.chunk.css",
+    "static/css/main.da0d87c8.chunk.css",
     "static/js/main.61752cf2.chunk.js"
   ]
 }
